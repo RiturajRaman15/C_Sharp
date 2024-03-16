@@ -17,5 +17,12 @@ namespace LearnCSharp
             Console.WriteLine("Player Name: " + name);
             Console.WriteLine("Player New Score: " + score);
         }
+
+        public void changeName(string name)
+        {
+            this.name = name;
+            Console.WriteLine("Player New Name: " + name);
+            Console.WriteLine("Player Score: " + score);
+        }
     }
 }
